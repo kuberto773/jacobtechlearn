@@ -10,7 +10,7 @@
 ## Running locally
 To run the app without Docker, simply run **dotnet run** command.
 
-- App uses web sockets to display loggged requests. 
+- App uses web sockets to display loggged requests (SignalR library). 
 
 It is designed to run alongside with SSL certificate - therefore if you want to **debug/test the app locally**, you need to change the following line in **Program.cs** and replace **wss:// with ws://**:
 
